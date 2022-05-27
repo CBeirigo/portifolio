@@ -415,7 +415,6 @@ p {
     }
 
     .header-wrapper .image-shape {
-        background-image: url(./img-profile.png);
         width: 200px;
         height: 200px;
         background-position: top;
