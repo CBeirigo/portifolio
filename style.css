@@ -486,13 +486,14 @@ p {
         letter-spacing: 2px;
     }
 
-    /* .social-medias .social-media:nth-child(1) {
-        background-color: #8E27CE;
+    .social-medias .social-media:nth-child(1) {
+        background-color: #B060E1;
     }
 
     .social-medias .social-media:nth-child(2) {
         background-color: #249CC1;
-    } */
+        text-align: center;
+    }
 
     .social-medias .social-media p {
         text-align: center;
