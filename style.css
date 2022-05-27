@@ -333,11 +333,11 @@ p {
 }
 
 .social-medias .social-media:nth-child(1):hover {
-    background-color: #DF5656;
+    background-color: #B060E1;
 }
 
 .social-medias .social-media:nth-child(2):hover {
-    background-color: #5674DF;
+    background-color: #249CC1;
 }
 
 .social-medias .social-media a {
@@ -486,13 +486,13 @@ p {
         letter-spacing: 2px;
     }
 
-    .social-medias .social-media:nth-child(1) {
+    /* .social-medias .social-media:nth-child(1) {
         background-color: #8E27CE;
     }
 
     .social-medias .social-media:nth-child(2) {
         background-color: #249CC1;
-    }
+    } */
 
     .social-medias .social-media p {
         font-size: 16px;
