@@ -393,7 +393,7 @@ p {
 @media (max-width: 800px) {
 
     .header-wrapper {
-        background: linear-gradient(-80deg, #B060E1, #E16065, #4ABADD, #5FDD4A);
+        background: linear-gradient(-80deg, #E16065, #B060E1,  #4ABADD, #5FDD4A);
         background-size: 400% 400%;
         animation: backgroundTransition 8s ease-in-out infinite;
     }
@@ -495,6 +495,7 @@ p {
     } */
 
     .social-medias .social-media p {
+        text-align: center;
         font-size: 16px;
         visibility: visible;
         opacity: 1;
@@ -510,7 +511,7 @@ p {
         }
     
         100% {
-            background-position: 0% 90%;
+            background-position: 0% 80%;
         }
     
     }
