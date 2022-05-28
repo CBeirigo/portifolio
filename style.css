@@ -76,7 +76,7 @@ p {
     width: 297px;
     height: 383px;
     position: absolute;
-    background: linear-gradient(-80deg, #E16065, #B060E1,  #4ABADD, #5FDD4A);
+    background: linear-gradient(-80deg, #E16065, #B060E1, #4ABADD, #5FDD4A);
     background-size: 400% 400%;
     border-radius: 103px;
     z-index: 0;
@@ -346,7 +346,7 @@ p {
 }
 
 .social-medias .social-media p {
-    text-align: center; 
+    text-align: center;
     font-size: 0;
     visibility: hidden;
     opacity: 0;
@@ -388,12 +388,12 @@ p {
 @media (max-width: 800px) {
 
     .header-wrapper {
-        background: linear-gradient(-80deg, #E16065, #B060E1,  #4ABADD, #5FDD4A);
+        background: linear-gradient(-80deg, #E16065, #B060E1, #4ABADD, #5FDD4A);
         background-size: 400% 400%;
         animation: backgroundTransition 8s ease-in-out infinite;
     }
 
-    .header-wrapper .container-header { 
+    .header-wrapper .container-header {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -496,18 +496,23 @@ p {
         opacity: 1;
     }
 
+    .social-medias .links .social-media:nth-child(1):hover p,
+    .social-medias .links .social-media:nth-child(2):hover p {
+        font-size: 16px;
+    }
+
     @keyframes backgroundTransition {
         0% {
             background-position: 0% 80%;
         }
-    
+
         50% {
             background-position: 80% 100%;
         }
-    
+
         100% {
             background-position: 0% 90%;
         }
-    
+
     }
 }
