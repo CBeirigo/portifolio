@@ -75,7 +75,6 @@ p {
 .header-wrapper .shadow-gradient {
     width: 297px;
     height: 383px;
-    position: absolute;
     background: linear-gradient(-80deg, #E16065, #B060E1, #4ABADD, #5FDD4A);
     background-size: 400% 400%;
     border-radius: 103px;
@@ -182,6 +181,10 @@ p {
     font-size: 40px;
 }
 
+.remove {
+    display: none;
+}
+
 /* MENU ANIMATION */
 
 #toggle:checked+.checkbox .trace:nth-child(1) {
@@ -251,12 +254,10 @@ p {
 }
 
 .project .shadow {
-    width: 255px;
+    width: 250px;
     height: 210px;
     border-radius: 60px;
-    position: absolute;
     z-index: 0;
-    right: 971px;
 }
 
 .project .doctorcare-image {
@@ -265,8 +266,6 @@ p {
 
 .project .shadow-doctorcare {
     background-color: #7ECEE7;
-    position: absolute;
-    bottom: -496px;
 }
 
 .project .snakegame-image {
@@ -275,8 +274,6 @@ p {
 
 .project .shadow-snakegame {
     background-color: #8DE77E;
-    position: absolute;
-    bottom: -796px;
 }
 
 .project .terminal-tutorial-image {
@@ -285,8 +282,6 @@ p {
 
 .project .shadow-terminal-tutorial {
     background-color: #BF7EE7;
-    position: absolute;
-    bottom: -1096px;
 }
 
 .project .information-project {
@@ -385,7 +380,7 @@ p {
 
 /* RESPONSIVO */
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 
     .header-wrapper {
         background: linear-gradient(-80deg, #E16065, #B060E1, #4ABADD, #5FDD4A);
@@ -401,7 +396,9 @@ p {
     }
 
     .header-wrapper .shadow-gradient {
-        display: none;
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
     }
 
     .container-header .image-profile {

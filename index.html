@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header-wrapper">
         <div class="header">
@@ -23,7 +25,7 @@
                     <nav class="menu-items">
                         <ul>
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="#home" onclick="closeMenu()">Home</a>
                             </li>
                             <li>
                                 <a href="#projects">Projetos</a>
@@ -44,8 +46,9 @@
                     Front-End </p>
             </div>
             <div class="image-profile">
-                <div class="image-shape"></div>
-                <div class="shadow-gradient"></div>
+                <div class="shadow-gradient">
+                    <div class="image-shape"></div>
+                </div>
             </div>
         </div>
 
@@ -56,8 +59,11 @@
             <h2>Projetos</h2>
             <div class="project">
                 <div class="project-container">
-                    <div class="img doctorcare-image"></div>
-                    <div class="shadow shadow-doctorcare"></div>
+
+                    <div class="shadow shadow-doctorcare">
+                        <div class="img doctorcare-image">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="information-project">
@@ -67,8 +73,9 @@
             </div>
             <div class="project">
                 <div class="project-container">
-                    <div class="img snakegame-image"></div>
-                    <div class="shadow shadow-snakegame"></div>
+                    <div class="shadow shadow-snakegame">
+                        <div class="img snakegame-image"></div>
+                    </div>
                 </div>
                 <div class="information-project">
                     <a href="https://github.com/CBeirigo/project-snake-game" target="_blank">Snake Game</a>
@@ -77,8 +84,9 @@
             </div>
             <div class="project">
                 <div class="project-container">
-                    <div class="img terminal-tutorial-image"></div>
-                    <div class="shadow shadow-terminal-tutorial"></div>
+                    <div class="shadow shadow-terminal-tutorial">
+                        <div class="img terminal-tutorial-image"></div>
+                    </div>
                 </div>
                 <div class="information-project">
                     <a href="https://github.com/CBeirigo/dio-desafio-git-github" target="_blank">Comandos no
@@ -99,14 +107,26 @@
                     <p>veja mais projetos</p>
                 </div>
                 <div class="social-media">
-                    <a href="#">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/carolina-beirigo/" target="_blank">LinkedIn</a>
                     <p>acompanhe minha carreira</p>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer">
-        <p>Feito por Carolina Beirigo <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g data-name="34-Happy and Smile"><path d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16Zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2Z" fill="#ffffff" class="fill-000000"></path><path d="M15 13h-2a2 2 0 0 0-4 0H7a4 4 0 0 1 8 0ZM25 13h-2a2 2 0 0 0-4 0h-2a4 4 0 0 1 8 0ZM16 25a8 8 0 0 1-8-8h2a6 6 0 0 0 12 0h2a8 8 0 0 1-8 8Z" fill="#ffffff" class="fill-000000"></path></g></svg></p>
+        <p>Feito por Carolina Beirigo <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <g data-name="34-Happy and Smile">
+                    <path d="M16 32a16 16 0 1 1 16-16 16 16 0 0 1-16 16Zm0-30a14 14 0 1 0 14 14A14 14 0 0 0 16 2Z"
+                        fill="#ffffff" class="fill-000000"></path>
+                    <path
+                        d="M15 13h-2a2 2 0 0 0-4 0H7a4 4 0 0 1 8 0ZM25 13h-2a2 2 0 0 0-4 0h-2a4 4 0 0 1 8 0ZM16 25a8 8 0 0 1-8-8h2a6 6 0 0 0 12 0h2a8 8 0 0 1-8 8Z"
+                        fill="#ffffff" class="fill-000000"></path>
+                </g>
+            </svg></p>
     </footer>
+
+    <!-- JS -->
+    <script src="main.js"></script>
 </body>
+
 </html>
