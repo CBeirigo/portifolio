@@ -1,4 +1,7 @@
-function closeMenu() {
-    document.body.classList.remove('menu-items')
-    
+function disableCheckbox() {
+    let checkbox = document.querySelector('#toggle')
+    checkbox.checked = false;
 }
+
+
+
